@@ -4,7 +4,7 @@ const {v4: uuidv4} = require('uuid');
 const cors = require('cors');
 const twilio = require('twilio');
 //?Defining PORT number here 
-const PORT = process.env.port || 5002;
+const PORT = process.env.PORT || 5002;
 const app = express();
 const server = http.createServer(app);
 app.use(cors());
